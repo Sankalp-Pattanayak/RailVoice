@@ -24,3 +24,7 @@
 1. Clone this repository to your local machine:
    ```bash
    git clone https://github.com/your-username/voice-based-train-enquiry-system.git
+Navigate into the project directory:
+   'cd RailVoice'
+Install the required Python packages:
+   'pip install -r requirements.txt'
