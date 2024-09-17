@@ -1,29 +1,24 @@
-# Voice-Based-Train-Enquiry-System
-Voice Based Enquiry System is the enquiry system which operates based on the voice input given by the user. There is no communication which is understood more appropriately than voice. This system too uses the voice commands and gives the required information in the form of voice. This project is developed using Python Programming language. This uses SQL Lite server for storing the information to be provided to the user. This uses mic to detect the voice from the user and uses the speech control to deliver the output in the form of text. Google speech to text converter would help convert the speech into text. 
+# RailVoice
+RailVoice operates through user voice input, utilizing voice commands to deliver the necessary information audibly. Recognizing that voice communication is highly effective, this system employs a microphone to capture user speech, which is then converted into text using Google's speech-to-text converter. Developed in Python, the system leverages an SQLite database to store the information required to respond to user inquiries. The speech control mechanism processes the text and provides appropriate responses in voice form, ensuring seamless and intuitive interactions.
 
 
-Building a voice based train enquiry system using Google speech recognition, mysqlite, python tkinter utility.
+Developing a voice-activated train inquiry system using Google Speech Recognition, SQLite, and Python's Tkinter library for the user interface.
 
 Overview
+Import the necessary Python packages.
+Prepare the railway database (a sample train.db file is provided).
+On first execution, create a user profile for database administration (this step is unnecessary if using the provided train.db).
 
-    Import Key python packages 
-    Prepare a database of railway data(sample train.db provided)
-    Executing first time would need to create a user profile for database administration(not required if using train.db)
-    
 
 Prerequisites
-
-    Basic programming experience in python
-    Basic understanding of Database CRUD properties 
-    Basic working understanding of tkinter UI functions
+Basic programming experience in Python.
+Fundamental understanding of database CRUD (Create, Read, Update, Delete) operations.
+Basic knowledge of Tkinter UI functions.
 
 
 Execution Steps
-
-    Getting this project running in dev environment is pretty simple.
-    
-    1.Execute the FRONT.py module via any IDE
-    2.Administration tab provided would lead to database monitoring window wherein user can modify record entries.
-    3."Give command in Speech" tab would activate speech recognition module wherein you can mention your enquiry regarding any train present in the database.
-    4.The speech should include keywords like "from", "to", <source_name> or/and <destination_name",<date>
+Run the FRONT.py module using any IDE.
+Access the Administration tab to open the database monitoring window, where you can modify record entries.
+Use the "Give command in Speech" tab to activate the speech recognition module. Speak your enquiry about any train listed in the database.
+Ensure your speech includes keywords such as "from", "to", <source_name>, <destination_name>, and <date>.
 
